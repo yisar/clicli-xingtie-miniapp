@@ -75,7 +75,7 @@ async function handler(req) {
     const entries = []
 
     if (pathname === '/slave.js' || pathname === '/master.js') {
-        return getJs("https://miniapp.deno.dev/dist" + pathname)
+        return getJs("https://npm.elemecdn.com/smallapp@latest/runtime/dist/" + pathname)
     }
 
     for await (const entry of Deno.readDir(`./dist`)) {
