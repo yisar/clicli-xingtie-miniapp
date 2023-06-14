@@ -1,0 +1,29 @@
+{
+  "name": "clicli-ad-miniapp",
+  "version": "1.0.0",
+  "description": "微信小程序 todomvc",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "smallapp build -e ./app.json -o ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yisar/clicli-ad-miniapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yisar/clicli-ad-miniapp/issues"
+  },
+  "homepage": "https://github.com/yisar/clicli-ad-miniapp#readme",
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "commander": "^10.0.1",
+    "ejs": "^3.1.9",
+    "esbuild": "^0.18.2",
+    "express": "^4.18.2",
+    "smallapp": "^0.0.1"
+  }
+}
